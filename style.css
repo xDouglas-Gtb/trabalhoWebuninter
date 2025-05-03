@@ -1,0 +1,82 @@
+span {
+    color: rgb(0, 23, 228);
+}
+.tabela-turistica {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #0028ac;
+    color: rgb(0, 82, 175);
+  }
+  
+.tabela-turistica th,
+.tabela-turistica td {
+    padding: 12px;
+    border: 1px solid #666;
+    text-align: left;
+  }
+.botao-link {
+    background-color: #097c0d; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+.centraliza {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    height: 100vh;
+}
+.botao-link:hover {
+    background-color: #7ac77d; /* Verde mais escuro no hover */
+  }
+body {
+    background-color: #00f7ff; /* azul suave */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+h1 {
+    color: #00478f; /* Azul escuro elegante */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+  }
+p {
+    font-size: 18px; /* Tamanho de fonte maior */
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhorar a leitura */
+  }
+img {
+    width: 33.33%; /* A imagem vai ocupar 1/3 da largura da tela */
+    border-radius: 20px; /* Bordas bem arredondadas */
+    display: block; /* Necessário para centralizar a imagem com margin */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-bottom: 20px;
+}
+/* Estilo do botão */
+.botao-mensagem {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Espaço acima do botão */
+  }
+  
+.botao-mensagem:hover {
+    background-color: #45a049; /* Tom de verde mais escuro quando passar o mouse */
+}
+  
+  /* Estilo para a mensagem */
+#mensagem {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    font-weight: bold;
+}
